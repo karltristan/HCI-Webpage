@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ece0d1;
+}
+
+a{
+    text-decoration: none;
+}
+/* NAVIGATION */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 70px;
+    font-size: 30px;
+}
+nav .left a{
+    color: #38220f;
+    font-weight: 700;
+    
+}
+nav .left a:hover{
+    padding: 5px 5px;
+    border: 2px solid #967259;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+nav .right a{
+    color: #38220f;
+    margin: 0 10px;
+    font-weight: 600;
+}
+nav .right a:hover{
+    padding: 5px 5px;
+    border: 2px solid #967259;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+/*--BODY--*/
+.home-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    min-height: 50vh;
+    padding: 0 20px;
+}
+.text{
+    padding: 0 50px;
+}
+.title{
+    color: #670D2F;
+    font-size: ;
+}
+.text p{
+    margin-bottom: 20px;
+}
+.Item{
+    color: #967259;
+}
+.home-content .text a:hover{
+    padding: 5px 5px;
+    border: 2px solid #967259;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+
+img{
+    width: 400px;
+}
+/*--Contact--*/
+#Item{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between ; 
+}
+.Menu {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.espresso{
+    border: 2px solid #967259;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.espresso .name{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.espresso img{
+    width: 350px;
+    height: auto;
+}
+.Cappuccino{
+    border: 2px solid #967259;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Cappuccino .name{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.Cappuccino img{
+    width: 350px;
+    height: auto;
+}
+.Americano{
+    border: 2px solid #967259;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Americano .name{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.Americano img{
+    width: 350px;
+    height: auto;
+}
+#Item #cart:hover{
+    padding: 2px 2px;
+    border: 1px solid #bfaa9c;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    cursor: pointer;
+    resize: none;
+}
+#Item-1{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 50px;
+
+}
+.Mocha{
+    border: 2px solid #967259;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Mocha .name{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.Mocha img{
+    width: 350px;
+    height: auto;
+}
+.Latte{
+    border: 2px solid #967259;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Latte .name{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.Latte img{
+    width: 350px;
+    height: auto;
+}
+.Caramel-Machiato{
+    border: 2px solid #967259;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.Caramel-Machiato .name{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.Caramel-Machiato img{
+    width: 350px;
+    height: auto;
+}
+#Item-1 #cart:hovergit{
+    padding: 2px 2px;
+    border: 1px solid #bfaa9c;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*--Contact--*/
+.Container{
+    padding: 0 50px;
+    margin: 100px;
+}
+.Container h1{
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.Container .Contact-Content{
+    display: flex;
+    gap: 50px
+}
+.Contact-Content .text{
+    flex: 3;
+    margin-top: 10px;
+}
+.Contact-Content .form{
+    flex: 3;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+.Contact-Content .form input,
+.Contact-Content .form textarea{
+    padding: 8px;
+    margin-bottom: 5px;
+    resize: none;
+    border: 2px solid #967259;
+    background-color: transparent;
+}
+.Contact-Content .form button{
+    border: none;
+    color: 	#ece0d1;
+    font-size: 15px;
+    font-family: 'Poppins' sans-serif;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: #38220f;
+    cursor: pointer;
+}
+.Contact-Content .form button:hover{
+    filter: brightness(.85);
+}
+/*--ABOUT--*/
+.About-Us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 0 20px;
+}
+.About-Us .text{
+    padding: 0 50px;
+}
+.About-Us .title{
+    color: #CB0404;
+    font-size: 45px;
+}
+.About-Us .text p{
+    margin-bottom: 20px;
+}
+.read-more div{
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #FF9F00;
+}
+.read-more a{
+    display: flex;
+}
+.read-more span{
+    padding-left: 2px;
+}
+.read-more div:hover{
+    cursor: pointer;
+}
+/*--Link--*/
+.links{
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+.links a{
+    color: #634832;
+    padding: 5px 5px;
+}
+.links a:hover{
+    padding: 3px 3px;
+    border: 2px solid #967259;
+    border-radius: 5px;
+}
+
+/*--Responsive design--*/
+@media (max-width: 700px){
+    /*--Navigation--*/
+    nav{
+        padding: 0 20px;
+        flex-wrap: wrap;
+        font-size: 17px;
+    }
+    nav .left{
+        font-size: 22px;
+    }
+    nav .left a span{
+        display: none;
+    }
+    nav .right a{
+        margin: 0 5px;
+    }
+    .home-content{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .text{
+        padding: 10px;
+    }
+    img{
+        width: 100%;
+        max-width: 300px;   
+    }
+    /*--Menu--*/
+    #Item{
+        display: flex;
+        flex-direction: column;
+    }
+    .espresso img{
+        width: 150px;
+        height: auto;
+    }
+    .Cappuccino img{
+        width: 150px;
+        height: auto;
+    }
+    .Americano img{
+        width: 150px;
+        height: auto;
+    }
+    #Item-1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .Mocha img{
+        width: 150px;
+        height: auto;
+    }
+    .Latte img{
+        width: 150px;
+        height: auto;
+    }
+    .Caramel-Machiato img{
+        width: 150px;
+        height: auto;
+    }
+    /*--Contact--*/
+    .Container{
+        padding: 0 20px;
+        flex-wrap: wrap;
+        font-size: 17px;
+        margin: 100px;
+    }
+    .Container h1{
+        padding: 20px 0;
+    }
+    .Contact-Content{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-right: 20px;
+    }
+    .Contact-Content .text br{
+        display: none;
+    }
+    .About-Us{
+        flex-direction: column  ;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+}
