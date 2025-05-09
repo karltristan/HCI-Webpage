@@ -201,7 +201,7 @@ img{
     width: 350px;
     height: auto;
 }
-#Item-1 #cart:hovergit{
+#Item-1 #cart:hover{
     padding: 2px 2px;
     border: 1px solid #bfaa9c;        
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
