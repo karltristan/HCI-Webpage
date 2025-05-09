@@ -386,7 +386,7 @@ img{
         padding-right: 20px;
     }
     .Contact-Content .text br{
-        display: inline;
+        display: none;
     }
         input, textarea {
         width: 100%;
