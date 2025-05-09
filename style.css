@@ -305,7 +305,7 @@ img{
 }
 
 /*--Responsive design--*/
-@media screen (max-width: 700px){
+@media (max-width: 700px){
     /*--Navigation--*/
     nav{
         padding: 0 20px;
@@ -372,6 +372,7 @@ img{
     /*--Contact--*/
     .Container{
         padding: 0 20px;
+        flex-wrap: wrap;
         font-size: 15px;
         margin: 20px;
     }
