@@ -305,7 +305,7 @@ img{
 }
 
 /*--Responsive design--*/
-@media (max-width: 700px){
+@media screen and (max-width: 700px){
     /*--Navigation--*/
     nav{
         padding: 0 20px;
