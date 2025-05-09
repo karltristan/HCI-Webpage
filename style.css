@@ -411,4 +411,7 @@ img{
         margin-top: 40px;
         gap: 20px;
     }
+    .About-Us .text br{
+        display: none;
+    }
 }
