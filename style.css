@@ -305,7 +305,7 @@ img{
 }
 
 /*--Responsive design--*/
-@media (max-width: 700px){
+@media screen (max-width: 700px){
     /*--Navigation--*/
     nav{
         padding: 0 20px;
@@ -372,9 +372,8 @@ img{
     /*--Contact--*/
     .Container{
         padding: 0 20px;
-        flex-wrap: wrap;
-        font-size: 17px;
-        margin: 100px;
+        font-size: 15px;
+        margin: 20px;
     }
     .Container h1{
         padding: 20px 0;
@@ -386,8 +385,23 @@ img{
         padding-right: 20px;
     }
     .Contact-Content .text br{
-        display: none;
+        display: inline;
     }
+        input, textarea {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 12px;
+        font-size: 16px;
+    }
+    /*--About--*/
     .About-Us{
         flex-direction: column  ;
         text-align: center;
